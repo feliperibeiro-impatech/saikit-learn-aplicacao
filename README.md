@@ -8,8 +8,8 @@ Os dados originais estão em `data/` e **não são modificados** pelo código. Q
 
 | Tarefa | Dataset | Fonte | Alvo |
 |---|---|---|---|
-| Classificação | MAGIC Gamma Telescope | [UCI Machine Learning Repository](https://archive.ics.uci.edu/) | classe `g` (gama) ou `h` (hádron) |
-| Regressão | Superconductivity Data | [UCI Machine Learning Repository](https://archive.ics.uci.edu/) | `critical_temp` (temperatura crítica) |
+| Classificação | MAGIC Gamma Telescope | [UCI Machine Learning Repository](https://archive.ics.uci.edu/dataset/159/magic+gamma+telescope) | classe `g` (gama) ou `h` (hádron) |
+| Regressão | Superconductivity Data | [UCI Machine Learning Repository](https://archive.ics.uci.edu/dataset/464/superconductivty+data) | `critical_temp` (temperatura crítica) |
 
 Os dois conjuntos são totalmente numéricos, então não há codificação de variáveis categóricas. O único pré-processamento aplicado aos atributos é a padronização, ajustada apenas no conjunto de treino.
 
