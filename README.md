@@ -4,7 +4,7 @@ Aplicação da biblioteca [`saikit_learn`](https://github.com/feliperibeiro-impa
 
 ## Dados
 
-Os dados originais estão em `data/` e **não são modificados** pelo código. Qualquer versão processada é gerada em tempo de execução.
+Os dados originais estão em `data/raw` e **não são modificados** pelo código. Qualquer versão processada é gerada em tempo de execução.
 
 | Tarefa | Dataset | Fonte | Alvo |
 |---|---|---|---|
@@ -15,7 +15,7 @@ Os dois conjuntos são totalmente numéricos, então não há codificação de v
 
 ### Quebras de linha
 
-Os arquivos em `data/` são tratados como binários pelo Git, ficando exatamente como foram baixados. Mesmo assim, o código remove espaços e caracteres de fim de linha dos rótulos ao carregar (`.strip()`), para evitar que a classe `g` seja lida como `g\r`.
+Os arquivos em `data/raw` são tratados como binários pelo Git, ficando exatamente como foram baixados. Mesmo assim, o código remove espaços e caracteres de fim de linha dos rótulos ao carregar (`.strip()`), para evitar que a classe `g` seja lida como `g\r`.
 
 ### Licença e citação
 
