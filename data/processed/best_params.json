@@ -1,0 +1,1 @@
+{"KNN": {"k": 2}, "Log\u00edstica": {"learning_rate": 1, "max_iter": 1500, "alpha": 0.001}, "QDA": {"reg_param": 0.0}, "LDA": {}}
